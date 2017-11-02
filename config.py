@@ -16,7 +16,7 @@ class mnist_config:
     eval_period = 600
     vis_period = 100
 
-    data_root = '../data'
+    data_root = 'data'
 
     size_labeled_data = 100
 
@@ -55,7 +55,7 @@ class svhn_config:
     eval_period = 730
     vis_period = 730
 
-    data_root = '../data'
+    data_root = 'data'
 
     size_labeled_data = 1000
 
@@ -85,7 +85,7 @@ class cifar_config:
     eval_period = 500
     vis_period = 500
 
-    data_root = '../data'
+    data_root = 'data'
 
     size_labeled_data = 4000
 
